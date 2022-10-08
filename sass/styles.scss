@@ -92,4 +92,49 @@ footer {
     .email {
         color: #5f2eea;
     }
+
 }
+
+section.deals {
+    h2{
+font-family: variables.$font-family;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 32px;
+    width: 100vw;
+    font-weight: bold;
+   letter-spacing: 1px;
+   margin-inline-start: 1.3em;
+   margin-inline-end: 1.3em;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+    }
+}
+.search {
+    font-weight: 400;
+    .search--button {
+    background: variables.$secondary-color;
+color: white; 
+border: none;
+border-radius: 30px;
+}
+    button {
+    background: #F7F7FC;
+    border: 2px solid #14142B;
+    border-radius: 16px;
+    font-family: variables.$font-family;
+    width: 86vw;
+    margin-block-start: 2vh;
+    margin-block-end: 2vh;
+    margin-inline-start: 7vw;
+    margin-inline-end: 7vw;
+    height: 8vh;
+}
+.search--text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+}
+
