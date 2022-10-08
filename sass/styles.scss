@@ -13,7 +13,6 @@ body {
     font-family: variables.$font-family;
 }
 
-
 header {
     color: variables.$primary-color;
     display: flex;
@@ -23,7 +22,62 @@ header {
     border-bottom: 1px #bca4ff solid;
 }
 
- footer {
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.search--destinations {
+    background-color: variables.$primary-color;
+    width: 420px;
+    height: 614px;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+
+    h2 {
+        color: #bca4ff;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        color: #f3efff;
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        margin-block-start: 20px;
+    }
+
+    select,
+    input {
+        margin-block-end: 20px;
+        color: #14142b;
+        font-size: 1.1rem;
+    }
+
+    button {
+        margin-block-start: 10px;
+        background-color: variables.$secondary-color;
+        color: #f7f7fc;
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        border-radius: 2.5rem;
+        border: none;
+        width: 65vw;
+        margin-inline-start: 20px;
+    }
+}
+
+.destination--search {
+    font-family: variables.$font-family;
+    height: 8vh;
+    border-radius: 1rem;
+    background: #eff0f7;
+}
+
+footer {
     h3 {
         color: variables.$primary-color;
         text-align: center;
@@ -36,9 +90,11 @@ header {
         color: variables.$text-color;
     }
     .email {
-        color: #5F2EEA;
+        color: #5f2eea;
     }
- }
+
+}
+
 section.deals {
     h2{
 font-family: variables.$font-family;
@@ -81,5 +137,4 @@ border-radius: 30px;
     padding: 2em;
 }
 }
-
 

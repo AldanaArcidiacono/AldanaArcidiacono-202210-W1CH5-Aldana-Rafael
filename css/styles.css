@@ -20,6 +20,57 @@ header {
   border-bottom: 1px #bca4ff solid;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.search--destinations {
+  background-color: #2a00a2;
+  width: 420px;
+  height: 614px;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.search--destinations h2 {
+  color: #bca4ff;
+}
+.search--destinations div {
+  display: flex;
+  flex-direction: column;
+  color: #f3efff;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin-block-start: 20px;
+}
+.search--destinations select,
+.search--destinations input {
+  margin-block-end: 20px;
+  color: #14142b;
+  font-size: 1.1rem;
+}
+.search--destinations button {
+  margin-block-start: 10px;
+  background-color: #ed2e7e;
+  color: #f7f7fc;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  border-radius: 2.5rem;
+  border: none;
+  width: 65vw;
+  margin-inline-start: 20px;
+}
+
+.destination--search {
+  font-family: "Poppins", sans-serif;
+  height: 8vh;
+  border-radius: 1rem;
+  background: #eff0f7;
+}
+
 footer h3 {
   color: #2a00a2;
   text-align: center;
