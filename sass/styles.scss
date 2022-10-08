@@ -13,7 +13,6 @@ body {
     font-family: variables.$font-family;
 }
 
-
 header {
     color: variables.$primary-color;
     display: flex;
@@ -23,7 +22,16 @@ header {
     border-bottom: 1px #bca4ff solid;
 }
 
- footer {
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.search--destinations {
+}
+
+footer {
     h3 {
         color: variables.$primary-color;
         text-align: center;
@@ -36,7 +44,6 @@ header {
         color: variables.$text-color;
     }
     .email {
-        color: #5F2EEA;
+        color: #5f2eea;
     }
- }
-
+}
