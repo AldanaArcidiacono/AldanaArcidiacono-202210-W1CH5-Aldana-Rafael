@@ -29,6 +29,52 @@ h1 {
 }
 
 .search--destinations {
+    background-color: variables.$primary-color;
+    width: 420px;
+    height: 614px;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+
+    h2 {
+        color: #bca4ff;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        color: #f3efff;
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        margin-block-start: 20px;
+    }
+
+    select,
+    input {
+        margin-block-end: 20px;
+        color: #14142b;
+        font-size: 1.1rem;
+    }
+
+    button {
+        margin-block-start: 10px;
+        background-color: variables.$secondary-color;
+        color: #f7f7fc;
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        border-radius: 2.5rem;
+        border: none;
+        width: 65vw;
+        margin-inline-start: 20px;
+    }
+}
+
+.destination--search {
+    font-family: variables.$font-family;
+    height: 8vh;
+    border-radius: 1rem;
+    background: #eff0f7;
 }
 
 footer {

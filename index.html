@@ -32,9 +32,12 @@
                     <label for="destination-select"
                         >Destination/property name</label
                     >
-                    <select name="destinations" id="destination-select">
+                    <select
+                        class="destination--search"
+                        name="destinations"
+                        id="destination-select"
+                    >
                         <option value="">🔍 Gold Coast</option>
-                        <option value="gold coast">Gold Coast</option>
                         <option value="norwegian fiords">
                             Norwegian Fiords
                         </option>
@@ -43,23 +46,28 @@
                     </select>
                     <label for="date-in">Check-in date</label>
                     <input
+                        class="destination--search"
                         type="text"
                         id="date-in"
                         placeholder="📅 Check-in date"
                     />
                     <label for="date-out">Check-out date</label>
                     <input
+                        class="destination--search"
                         type="text"
                         id="date-out"
                         placeholder="📅 Check-out date"
                     />
                     <label for="travellers">Travellers</label>
                     <input
+                        class="destination--search"
                         type="text"
                         id="travellers"
                         placeholder="🙋🏻‍♀️ 2 adults - 0 children"
                     />
-                    <button type="submit">Search</button>
+                    <button class="destination--search" type="submit">
+                        Search
+                    </button>
                 </div>
             </section>
             <section class="search--results">
