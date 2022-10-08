@@ -83,10 +83,10 @@ footer p {
   color: #6E7191;
 }
 footer .email {
-  color: #5F2EEA;
+  color: #5f2eea;
 }
 
-section.deals h2 {
+section h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
@@ -94,10 +94,7 @@ section.deals h2 {
   width: 100vw;
   font-weight: bold;
   letter-spacing: 1px;
-  margin-inline-start: 1.3em;
-  margin-inline-end: 1.3em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  padding: 1em;
 }
 
 .search {
@@ -108,18 +105,19 @@ section.deals h2 {
   color: white;
   border: none;
   border-radius: 30px;
+  height: 10vh;
 }
 .search button {
-  background: #F7F7FC;
-  border: 2px solid #14142B;
+  background: #f7f7fc;
+  border: 2px solid #14142b;
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
   width: 86vw;
   margin-block-start: 2vh;
-  margin-block-end: 2vh;
+  margin-block-end: 4vh;
   margin-inline-start: 7vw;
   margin-inline-end: 7vw;
-  height: 8vh;
+  height: 6vh;
 }
 .search .search--text {
   display: flex;
