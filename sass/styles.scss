@@ -4,3 +4,19 @@
 body {
     font-family: variables.$font-family;
 }
+ footer {
+    h3 {
+        color: variables.$primary-color;
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        color: variables.$text-color;
+    }
+    .email {
+        color: #5F2EEA;
+    }
+ }
