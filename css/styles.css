@@ -126,4 +126,47 @@ section h2 {
   padding: 2em;
 }
 
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vw;
+}
+.boxes .boxes--green_box {
+  background-color: #f2fffb;
+  border: #00ba88;
+  color: #00ba88;
+  border: 2px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 6vh;
+  margin-block-end: 6vh;
+  align-items: center;
+}
+.boxes .boxes--red_box {
+  background-color: #fff3f8;
+  border: #bb5d5b;
+  border: 2px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #bb5d5b;
+  align-items: center;
+}
+.boxes .boxes p {
+  margin: 1em;
+  padding: 1em;
+}
+
+.down_arrow {
+  width: 100vw;
+  border-block-end: solid 2px #d9dbe9;
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
