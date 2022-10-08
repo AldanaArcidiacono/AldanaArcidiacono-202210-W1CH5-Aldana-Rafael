@@ -52,16 +52,15 @@ font-family: variables.$font-family;
    margin-inline-end: 1.3em;
    margin-block-start: 1em;
    margin-block-end: 1em;
-
-   
     }
-    
 }
 .search {
     font-weight: 400;
     .search--button {
     background: variables.$secondary-color;
-color: white;    
+color: white; 
+border: none;
+border-radius: 30px;
 }
     button {
     background: #F7F7FC;
@@ -69,15 +68,18 @@ color: white;
     border-radius: 16px;
     font-family: variables.$font-family;
     width: 86vw;
-    align-items: center;
     margin-block-start: 2vh;
     margin-block-end: 2vh;
     margin-inline-start: 7vw;
     margin-inline-end: 7vw;
-    height: 10vh;
-    
+    height: 8vh;
+}
+.search--text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
 }
 }
-
 
 
