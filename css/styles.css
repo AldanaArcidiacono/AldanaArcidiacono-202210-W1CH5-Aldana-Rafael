@@ -55,6 +55,8 @@ section.deals h2 {
 .search .search--button {
   background: #ed2e7e;
   color: white;
+  border: none;
+  border-radius: 30px;
 }
 .search button {
   background: #F7F7FC;
@@ -62,12 +64,17 @@ section.deals h2 {
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
   width: 86vw;
-  align-items: center;
   margin-block-start: 2vh;
   margin-block-end: 2vh;
   margin-inline-start: 7vw;
   margin-inline-end: 7vw;
-  height: 10vh;
+  height: 8vh;
+}
+.search .search--text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
