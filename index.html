@@ -1,179 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Find your hotel" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/css/styles.css" />
-        <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
-        <title>Travelulu</title>
-    </head>
-    <body>
-        <header>
-            <h1>Travelulu</h1>
-            <nav class="menu-icon">
-                <img src="/assets/hamburger-menu-icon.svg" alt="Icono menu" />
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Find deals on hotels, homes and much more...</h2>
-                <div class="search">
-                    <button>Where are you going? ></button>
-                    <button>Check-in Check-out ></button>
-                    <button>2 adults - 0 children ></button>
-                    <button type="submit" class="search__submit">Search</button>
-                </div>
-            </section>
-            <section class="search--destinations">
-                <h2>Search</h2>
-                <div>
-                    <label for="destination-select"
-                        >Destination/property name</label
-                    >
-                    <select name="destinations" id="destination-select">
-                        <option value="">🔍 Gold Coast</option>
-                        <option value="gold coast">Gold Coast</option>
-                        <option value="norwegian fiords">
-                            Norwegian Fiords
-                        </option>
-                        <option value="siberia">Siberia</option>
-                        <option value="dublin">Dublin</option>
-                    </select>
-                    <label for="date-in">Check-in date</label>
-                    <input
-                        type="text"
-                        name="date-in"
-                        placeholder="📅 Check-in date"
-                    />
-                    <label for="date-out">Check-out date</label>
-                    <input
-                        type="text"
-                        name="date-out"
-                        placeholder="📅 Check-out date"
-                    />
-                    <label for="travellers">Travellers</label>
-                    <input
-                        type="text"
-                        name="travellers"
-                        placeholder="🙋🏻‍♀️ 2 adults - 0 children"
-                    />
-                    <button type="submit">Search</button>
-                </div>
-            </section>
-            <section class="search--results">
-                <h3 class="number-of-results">254 Propeties Found</h3>
-                <div class="result1">
-                    <!-- Imagenes en scroll -->
-                    <img
-                        src="/assets/House 1.png"
-                        alt="Dream house on the beach"
-                    />
-                    <img
-                        src="/assets/House 1.png"
-                        alt="Dream house on the beach2"
-                    />
-                    <p>⭐⭐⭐⭐⭐</p>
-                    <h3>Estate de la Newcastle</h3>
-                    <p>
-                        Newcastle City Centre, Newcastle upon Tyne 0.1km from
-                        centre
-                    </p>
-                    <h4>🗺 Show on map</h4>
-                    <p>
-                        Situated in Newcastle City Centre, Maldron Hotel
-                        features free WiFi and a private court yard.
-                    </p>
-                    <button type="submit">Make a booking</button>
-                </div>
-                <div class="result2">
-                    <img
-                        src="/assets/House 2.png"
-                        alt="Dream house on the beach"
-                    />
-                    <img
-                        src="/assets/House 1.png"
-                        alt="Dream house on the beach2"
-                    />
-                    <p>⭐⭐⭐</p>
-                    <h3>Estate de la Newcastle</h3>
-                    <p>
-                        Newcastle City Centre, Newcastle upon Tyne 0.1km from
-                        centre
-                    </p>
-                    <h4>🗺 Show on map</h4>
-                    <p>
-                        Situated in Newcastle City Centre, Maldron Hotel
-                        features free WiFi and a private court yard.
-                    </p>
-                    <button type="submit">Make a booking</button>
-                </div>
-                <div class="result3">
-                    <img
-                        src="/assets/House 2.png"
-                        alt="Dream house on the beach"
-                    />
-                    <img
-                        src="/assets/House 1.png"
-                        alt="Dream house on the beach2"
-                    />
-                    <p>⭐⭐⭐</p>
-                    <h3>Estate de la Newcastle</h3>
-                    <p>
-                        Newcastle City Centre, Newcastle upon Tyne 0.1km from
-                        centre
-                    </p>
-                    <h4>🗺 Show on map</h4>
-                    <p>
-                        Situated in Newcastle City Centre, Maldron Hotel
-                        features free WiFi and a private court yard.
-                    </p>
-                    <button type="submit">Make a booking</button>
-                </div>
-                <div>
-                    <img src="/assets/" alt="button" />
-                </div>
-            </section>
-            <section>
-                <div>
-                    <p>
-                        👍🏻 Lock in a great price for your upcoming stay. Get
-                        instant confirmation with FREE cancellation on most
-                        rooms!
-                    </p>
-                    <p>x</p>
-                </div>
-                <div>
-                    <p>
-                        ❗ From 6 April 2022, your chosen cancellation policy
-                        will apply, regardless of Coronavirus. We recommend
-                        booking a free cancellation option in case your travel
-                        plans need to change.
-                    </p>
-                    <p>x</p>
-                </div>
-            </section>
-            <section>
-                <h3>Need more information to get started</h3>
-                <button type="submit">CONTACT US</button>
-            </section>
-        </main>
-        <footer>
-            <h3>Travelulu</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-                ullamcorper magna, ac laoreet ex. Integer a consequat lectus.
-                Nullam tortor sem
-            </p>
-            <p>Copyright 2021, All Rights Reserved.</p>
-            <div>
-                <h4>Contact</h4>
-                <p>travelulu@website.com</p>
-                <p>
-                    22 Street Address,, Suburb Address Main City, PO Box,
-                    Country 08 8888 88888
-                </p>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Find your hotel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
+    <title>Travelulu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Travelulu</h1>
+        <nav class="menu-icon">
+            <img src="./assets/hamburger-menu-icon.svg" alt="Icono menu" />
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Find deals on hotels, homes and much more...</h2>
+            <div class="search">
+                <button>Where are you going? ></button>
+                <button>Check-in Check-out ></button>
+                <button>2 adults - 0 children ></button>
+                <button type="submit" class="search__submit">Search</button>
             </div>
-        </footer>
-    </body>
+        </section>
+        <section class="search--destinations">
+            <h2>Search</h2>
+            <div>
+                <label for="destination-select">Destination/property name</label>
+                <select name="destinations" id="destination-select">
+                    <option value="">🔍 Gold Coast</option>
+                    <option value="gold coast">Gold Coast</option>
+                    <option value="norwegian fiords">
+                        Norwegian Fiords
+                    </option>
+                    <option value="siberia">Siberia</option>
+                    <option value="dublin">Dublin</option>
+                </select>
+                <label for="date-in">Check-in date</label>
+                <input type="text" name="date-in" placeholder="📅 Check-in date" />
+                <label for="date-out">Check-out date</label>
+                <input type="text" name="date-out" placeholder="📅 Check-out date" />
+                <label for="travellers">Travellers</label>
+                <input type="text" name="travellers" placeholder="🙋🏻‍♀️ 2 adults - 0 children" />
+                <button type="submit">Search</button>
+            </div>
+        </section>
+        <section class="search--results">
+            <h3 class="number-of-results">254 Propeties Found</h3>
+            <div class="result1">
+                <!-- Imagenes en scroll -->
+                <img src="/assets/House 1.png" alt="Dream house on the beach" />
+                <img src="/assets/House 1.png" alt="Dream house on the beach2" />
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Estate de la Newcastle</h3>
+                <p>
+                    Newcastle City Centre, Newcastle upon Tyne 0.1km from
+                    centre
+                </p>
+                <h4>🗺 Show on map</h4>
+                <p>
+                    Situated in Newcastle City Centre, Maldron Hotel
+                    features free WiFi and a private court yard.
+                </p>
+                <button type="submit">Make a booking</button>
+            </div>
+            <div class="result2">
+                <img src="/assets/House 2.png" alt="Dream house on the beach" />
+                <img src="/assets/House 1.png" alt="Dream house on the beach2" />
+                <p>⭐⭐⭐</p>
+                <h3>Estate de la Newcastle</h3>
+                <p>
+                    Newcastle City Centre, Newcastle upon Tyne 0.1km from
+                    centre
+                </p>
+                <h4>🗺 Show on map</h4>
+                <p>
+                    Situated in Newcastle City Centre, Maldron Hotel
+                    features free WiFi and a private court yard.
+                </p>
+                <button type="submit">Make a booking</button>
+            </div>
+            <div class="result3">
+                <img src="/assets/House 2.png" alt="Dream house on the beach" />
+                <img src="/assets/House 1.png" alt="Dream house on the beach2" />
+                <p>⭐⭐⭐</p>
+                <h3>Estate de la Newcastle</h3>
+                <p>
+                    Newcastle City Centre, Newcastle upon Tyne 0.1km from
+                    centre
+                </p>
+                <h4>🗺 Show on map</h4>
+                <p>
+                    Situated in Newcastle City Centre, Maldron Hotel
+                    features free WiFi and a private court yard.
+                </p>
+                <button type="submit">Make a booking</button>
+            </div>
+            <div>
+                <img src="/assets/" alt="button" />
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>
+                    👍🏻 Lock in a great price for your upcoming stay. Get
+                    instant confirmation with FREE cancellation on most
+                    rooms!
+                </p>
+                <p>x</p>
+            </div>
+            <div>
+                <p>
+                    ❗ From 6 April 2022, your chosen cancellation policy
+                    will apply, regardless of Coronavirus. We recommend
+                    booking a free cancellation option in case your travel
+                    plans need to change.
+                </p>
+                <p>x</p>
+            </div>
+        </section>
+        <section>
+            <h3>Need more information to get started</h3>
+            <button type="submit">CONTACT US</button>
+        </section>
+    </main>
+    <footer>
+        <h3>Travelulu</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+            ullamcorper magna, ac laoreet ex. Integer a consequat lectus.
+            Nullam tortor sem
+        </p>
+        <p>Copyright 2021, All Rights Reserved.</p>
+        <div>
+            <h4>Contact</h4>
+            <p class="email">travelulu@website.com</p>
+            <p>
+                22 Street Address,, Suburb Address Main City, PO Box,
+                Country 08 8888 88888
+            </p>
+        </div>
+    </footer>
+</body>
+
 </html>

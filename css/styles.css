@@ -3,4 +3,19 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+footer h3 {
+  color: #2a00a2;
+  text-align: center;
+}
+footer h4 {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  color: #6E7191;
+}
+footer .email {
+  color: #5F2EEA;
+}
+
 /*# sourceMappingURL=styles.css.map */
