@@ -313,3 +313,21 @@ footer {
         color: #5f2eea;
     }
 }
+
+@media screen and (min-width: 500px) {
+    .search {
+        display: flex;
+        flex-direction: row;
+        button {
+            margin-inline-start: 20px;
+        }
+    }
+
+    .search--long-button {
+        min-width: 475px;
+    }
+
+    .search--short-button {
+        min-width: 260px;
+    }
+}
