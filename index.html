@@ -1,73 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Find your hotel" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
-    <title>Travelulu</title>
-</head>
-
-<body>
-    <header>
-        <h1>Travelulu</h1>
-        <nav class="menu-icon">
-            <img src="/assets/Menu.png" alt="Icono menu" />
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Find deals on hotels, homes and much more...</h2>
-            <div class="search">
-                <button class="search--text">
-                    Where are you going?
+    <body>
+        <header>
+            <h1>Travelulu</h1>
+            <nav class="menu-icon">
+                <img src="/assets/Menu.png" alt="Icono menu" />
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Find deals on hotels, homes and much more...</h2>
+                <div class="search">
+                    <button class="search--text">
+                        Where are you going?
+                        <div>
+                            <img src="./assets/Forward.png" alt="foward icon" />
+                        </div>
+                    </button>
+                    <button class="search--text">
+                        Check-in Check-out
+                        <div>
+                            <img src="./assets/Forward.png" alt="foward icon" />
+                        </div>
+                    </button>
+                    <button class="search--text">
+                        2 adults - 0 children
+                        <div>
+                            <img src="./assets/Forward.png" alt="foward icon" />
+                        </div>
+                    </button>
+                    <button class="search--button search__submit" type="submit">
+                        Search
+                    </button>
+                </div>
+            </section>
+            <section class="search--destinations">
+                <h3>Search</h3>
+                <div>
                     <div>
-                        <img src="./assets/Forward.png" alt="foward icon" />
+                        <p>Destination/property name</p>
+                        <div class="destinations__button">
+                            <div><img src="/assets/searchh.svg" alt="" /></div>
+                            <div class="destinations__text">Gold Coast</div>
+                            <div>
+                                <img
+                                    src="/assets/fforward.svg"
+                                    alt=""
+                                    class="foward"
+                                />
+                            </div>
+                        </div>
                     </div>
-                </button>
-                <button class="search--text">
-                    Check-in Check-out
                     <div>
-                        <img src="./assets/Forward.png" alt="foward icon" />
+                        <p>Check-in date</p>
+                        <div class="destinations__button">
+                            <div><img src="/assets/calandar.svg" alt="" /></div>
+                            <div class="destinations__text">Check-in date</div>
+                            <div>
+                                <img
+                                    src="/assets/fforward.svg"
+                                    alt=""
+                                    class="foward"
+                                />
+                            </div>
+                        </div>
                     </div>
-                </button>
-                <button class="search--text">
-                    2 adults - 0 children
                     <div>
-                        <img src="./assets/Forward.png" alt="foward icon" />
+                        <p>Check-out date</p>
+                        <div class="destinations__button">
+                            <div><img src="/assets/calandar.svg" alt="" /></div>
+                            <div class="destinations__text">Check-out date</div>
+                            <div>
+                                <img
+                                    src="/assets/fforward.svg"
+                                    alt=""
+                                    class="foward"
+                                />
+                            </div>
+                        </div>
                     </div>
-                </button>
-                <button class="search--button search__submit" type="submit">
-                    Search
-                </button>
-            </div>
-        </section>
-        <section class="search--destinations">
-            <h3>Search</h3>
-            <div>
-                <label for="destination-select">Destination/property name</label>
-                <select class="destination--search" name="destinations" id="destination-select">
-                    <option value="">🔍 Gold Coast</option>
-                    <option value="norwegian fiords">
-                        Norwegian Fiords
-                    </option>
-                    <option value="siberia">Siberia</option>
-                    <option value="dublin">Dublin</option>
-                </select>
-                <label for="date-in">Check-in date</label>
-                <input class="destination--search" type="text" id="date-in" placeholder="📅 Check-in date" />
-                <label for="date-out">Check-out date</label>
-                <input class="destination--search" type="text" id="date-out" placeholder="📅 Check-out date" />
-                <label for="travellers">Travellers</label>
-                <input class="destination--search" type="text" id="travellers"
-                    placeholder="🙋🏻‍♀️ 2 adults - 0 children" />
-                <button class="destination--search" type="submit">
-                    Search
-                </button>
-            </div>
-        </section>
+                    <div>
+                        <p>Travellers</p>
+                        <div class="destinations__button">
+                            <div><img src="/assets/profile.svg" alt="" /></div>
+                            <div class="destinations__text">
+                                2 adults - 0 children
+                            </div>
+                            <div>
+                                <img
+                                    src="/assets/fforward.svg"
+                                    alt=""
+                                    class="foward"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <button class="destination--search" type="submit">
+                        Search
+                    </button>
+                </div>
+            </section>
+   
         <section class="search--results">
             <h3 class="number-of-results">254 Propeties Found</h3>
             <div class="result1">
