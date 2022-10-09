@@ -377,4 +377,56 @@ footer {
     .img_hide {
         display: none;
     }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright.copyright {
+        width: 500px;
+        text-align: start;
+        text-align: left;
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .services.services {
+        display: block;
+        text-align: center;
+        color: variables.$text-color;
+        padding: 1rem;
+        ol {
+            list-style-type: none;
+            text-align: left;
+            font-size: 14px;
+        }
+        h4 {
+            font-size: 1rem;
+            color: #14142b;
+        }
+    }
+
+    .continents.continents {
+        display: block;
+        text-align: center;
+        color: variables.$text-color;
+        padding: 1rem;
+        ol {
+            list-style-type: none;
+            text-align: left;
+            font-size: 14px;
+        }
+        h4 {
+            font-size: 1rem;
+            color: #14142b;
+        }
+    }
+
+    .contact {
+        width: 300px;
+        text-align: start;
+    }
 }
