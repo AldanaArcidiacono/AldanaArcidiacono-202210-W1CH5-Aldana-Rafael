@@ -189,11 +189,21 @@ section {
         padding: 1em;
     }
 }
+
+.arrow_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .down_arrow {
-    width: 100vw;
     border-block-end: solid 2px #d9dbe9;
     display: flex;
     justify-content: center;
+}
+.arrow__item {
+    border-block-end: solid 1px #d9dbe9;
+    display: flex;
+    width: 40vw;
 }
 
 .search--results {
