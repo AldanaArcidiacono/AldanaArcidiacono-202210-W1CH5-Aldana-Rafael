@@ -1,234 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Find your hotel" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/css/styles.css" />
-        <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
-        <title>Travelulu</title>
-    </head>
 
-    <body>
-        <header>
-            <h1>Travelulu</h1>
-            <nav class="menu-icon">
-                <img src="/assets/Menu.png" alt="Icono menu" />
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Find deals on hotels, homes and much more...</h2>
-                <div class="search">
-                    <button class="search--text">
-                        Where are you going?
-                        <div>
-                            <img src="./assets/Forward.png" alt="foward icon" />
-                        </div>
-                    </button>
-                    <button class="search--text">
-                        Check-in Check-out
-                        <div>
-                            <img src="./assets/Forward.png" alt="foward icon" />
-                        </div>
-                    </button>
-                    <button class="search--text">
-                        2 adults - 0 children
-                        <div>
-                            <img src="./assets/Forward.png" alt="foward icon" />
-                        </div>
-                    </button>
-                    <button class="search--button search__submit" type="submit">
-                        Search
-                    </button>
-                </div>
-            </section>
-            <section class="search--destinations">
-                <h3>Search</h3>
-                <div>
-                    <label for="destination-select"
-                        >Destination/property name</label
-                    >
-                    <select
-                        class="destination--search"
-                        name="destinations"
-                        id="destination-select"
-                    >
-                        <option value="">🔍 Gold Coast</option>
-                        <option value="norwegian fiords">
-                            Norwegian Fiords
-                        </option>
-                        <option value="siberia">Siberia</option>
-                        <option value="dublin">Dublin</option>
-                    </select>
-                    <label for="date-in">Check-in date</label>
-                    <input
-                        class="destination--search"
-                        type="text"
-                        id="date-in"
-                        placeholder="📅 Check-in date"
-                    />
-                    <label for="date-out">Check-out date</label>
-                    <input
-                        class="destination--search"
-                        type="text"
-                        id="date-out"
-                        placeholder="📅 Check-out date"
-                    />
-                    <label for="travellers">Travellers</label>
-                    <input
-                        class="destination--search"
-                        type="text"
-                        id="travellers"
-                        placeholder="🙋🏻‍♀️ 2 adults - 0 children"
-                    />
-                    <button class="destination--search" type="submit">
-                        Search
-                    </button>
-                </div>
-            </section>
-            <section class="search--results">
-                <h3 class="number-of-results">254 Propeties Found</h3>
-                <div class="result1">
-                    <div class="image__container">
-                        <img
-                            src="assets/house1.png"
-                            alt="Dream house on the beach"
-                        />
-                        <img
-                            src="assets/house1.png"
-                            alt="Dream house on the beach2"
-                        />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Find your hotel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
+    <title>Travelulu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Travelulu</h1>
+        <nav class="menu-icon">
+            <img src="/assets/Menu.png" alt="Icono menu" />
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Find deals on hotels, homes and much more...</h2>
+            <div class="search">
+                <button class="search--text">
+                    Where are you going?
+                    <div>
+                        <img src="./assets/Forward.png" alt="foward icon" />
                     </div>
-                    <div class="result__description">
-                        <p>⭐⭐⭐⭐⭐</p>
-                        <h4>Estate de la Newcastle</h4>
-                        <p>
-                            Newcastle City Centre, Newcastle upon Tyne 0.1km
-                            from centre
-                        </p>
-                        <h5>🗺 Show on map</h5>
-                        <p>
-                            Situated in Newcastle City Centre, Maldron Hotel
-                            features free WiFi and a private court yard.
-                        </p>
-                        <button type="submit">Make a booking</button>
+                </button>
+                <button class="search--text">
+                    Check-in Check-out
+                    <div>
+                        <img src="./assets/Forward.png" alt="foward icon" />
                     </div>
-                </div>
-                <div class="result2">
-                    <div class="image__container">
-                        <img
-                            src="/assets/house2.png"
-                            alt="Dream house on the beach"
-                        />
-                        <img
-                            src="assets/house1.png"
-                            alt="Dream house on the beach2"
-                        />
+                </button>
+                <button class="search--text">
+                    2 adults - 0 children
+                    <div>
+                        <img src="./assets/Forward.png" alt="foward icon" />
                     </div>
-                    <div class="result__description">
-                        <p>⭐⭐⭐</p>
-                        <h4>Estate de la Newcastle</h4>
-                        <p>
-                            Newcastle City Centre, Newcastle upon Tyne 0.1km
-                            from centre
-                        </p>
-                        <h5>🗺 Show on map</h5>
-                        <p>
-                            Situated in Newcastle City Centre, Maldron Hotel
-                            features free WiFi and a private court yard.
-                        </p>
-                        <button type="submit">Make a booking</button>
-                    </div>
-                </div>
-                <div class="result3">
-                    <div class="image__container">
-                        <img
-                            src="/assets/house2.png"
-                            alt="Dream house on the beach"
-                        />
-                        <img
-                            src="assets/house1.png"
-                            alt="Dream house on the beach2"
-                        />
-                    </div>
-                    <div class="result__description">
-                        <p>⭐⭐⭐</p>
-                        <h4>Estate de la Newcastle</h4>
-                        <p>
-                            Newcastle City Centre, Newcastle upon Tyne 0.1km
-                            from centre
-                        </p>
-                        <h5>🗺 Show on map</h5>
-                        <p>
-                            Situated in Newcastle City Centre, Maldron Hotel
-                            features free WiFi and a private court yard.
-                        </p>
-                        <button type="submit">Make a booking</button>
-                    </div>
-                </div>
-            </section>
-            <div class="arrow_container">
-                <div class="arrow__item"></div>
-                <div>
-                    <img
-                        class="down_arrow"
-                        src="./assets/down_arrow.png"
-                        alt="button"
-                    />
-                </div>
-                <div class="arrow__item"></div>
+                </button>
+                <button class="search--button search__submit" type="submit">
+                    Search
+                </button>
             </div>
-            <section class="boxes">
-                <div class="boxes--green_box">
-                    <p class="boxes">👍🏻</p>
-                    <p class="boxes">
-                        Lock in a great price for your upcoming stay. Get
-                        instant confirmation with FREE cancellation on most
-                        rooms!
-                    </p>
-                    <p class="boxes">X</p>
-                </div>
-                <div class="boxes--red_box">
-                    <p class="boxes">❗</p>
-                    <p class="boxes">
-                        From 6 April 2022, your chosen cancellation policy will
-                        apply, regardless of Coronavirus. We recommend booking a
-                        free cancellation option in case your travel plans need
-                        to change.
-                    </p>
-                    <p class="boxes">X</p>
-                </div>
-            </section>
-            <section class="contact-us">
-                <div class="contact-us__text--container">
-                    <h3>Need more information to get started?</h3>
-                    <button type="submit">CONTACT US</button>
-                </div>
-                <div class="img--container">
-                    <img
-                        src="/assets/background.png"
-                        alt="publicity background"
-                    />
-                </div>
-            </section>
-        </main>
-        <footer>
-            <h3>Travelulu</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-                ullamcorper magna, ac laoreet ex. Integer a consequat lectus.
-                Nullam tortor sem
-            </p>
-            <p>Copyright 2021, All Rights Reserved.</p>
+        </section>
+        <section class="search--destinations">
+            <h3>Search</h3>
             <div>
-                <h4>Contact</h4>
-                <p class="email">travelulu@website.com</p>
-                <p>
-                    22 Street Address,, Suburb Address Main City, PO Box,
-                    Country 08 8888 88888
-                </p>
+                <label for="destination-select">Destination/property name</label>
+                <select class="destination--search" name="destinations" id="destination-select">
+                    <option value="">🔍 Gold Coast</option>
+                    <option value="norwegian fiords">
+                        Norwegian Fiords
+                    </option>
+                    <option value="siberia">Siberia</option>
+                    <option value="dublin">Dublin</option>
+                </select>
+                <label for="date-in">Check-in date</label>
+                <input class="destination--search" type="text" id="date-in" placeholder="📅 Check-in date" />
+                <label for="date-out">Check-out date</label>
+                <input class="destination--search" type="text" id="date-out" placeholder="📅 Check-out date" />
+                <label for="travellers">Travellers</label>
+                <input class="destination--search" type="text" id="travellers"
+                    placeholder="🙋🏻‍♀️ 2 adults - 0 children" />
+                <button class="destination--search" type="submit">
+                    Search
+                </button>
             </div>
-        </footer>
-    </body>
+        </section>
+        <section class="search--results">
+            <h3 class="number-of-results">254 Propeties Found</h3>
+            <div class="result1">
+                <div class="image__container">
+                    <img src="assets/house1.png" alt="Dream house on the beach" />
+                    <img src="assets/house1.png" alt="Dream house on the beach2" />
+                </div>
+                <div class="result__description">
+                    <div class="ratings"></div><img src="./assets/Star.svg" alt="Star Rating"><img
+                        src="./assets/Star.svg" alt="Star Rating"><img src="./assets/Star.svg" alt="Star Rating"><img
+                        src="./assets/Star.svg" alt="Star Rating"><img src="./assets/Star.svg" alt="Star Rating">
+                </div>
+                <h4>Estate de la Newcastle</h4>
+                <p>
+                    Newcastle City Centre, Newcastle upon Tyne 0.1km
+                    from centre
+                </p>
+                <div class="map_location">
+                    <div class="map_location--item"><img src="./assets/Location.svg" alt="Show on map"></div>
+                    <div>
+                        <h5 class="map_location--item">Show on map</h5>
+                    </div>
+                </div>
+                <p>
+                    Situated in Newcastle City Centre, Maldron Hotel
+                    features free WiFi and a private court yard.
+                </p>
+                <button type="submit">Make a booking</button>
+            </div>
+            </div>
+            <div class="result2">
+                <div class="image__container">
+                    <img src="/assets/house2.png" alt="Dream house on the beach" />
+                    <img src="assets/house1.png" alt="Dream house on the beach2" />
+                </div>
+                <div class="result__description">
+                    <div class="ratings"></div><img src="./assets/Star.svg" alt="Star Rating"><img
+                        src="./assets/Star.svg" alt="Star Rating"><img src="./assets/Star.svg" alt="Star Rating">
+                </div>
+                <h4>Estate de la Newcastle</h4>
+                <p>
+                    Newcastle City Centre, Newcastle upon Tyne 0.1km
+                    from centre
+                </p>
+                <div class="map_location">
+                    <div class="map_location--item"><img src="./assets/Location.svg" alt="Show on map"></div>
+                    <div>
+                        <h5 class="map_location--item">Show on map</h5>
+                    </div>
+                </div>
+                <p>
+                    Situated in Newcastle City Centre, Maldron Hotel
+                    features free WiFi and a private court yard.
+                </p>
+                <button type="submit">Make a booking</button>
+            </div>
+            </div>
+            <div class="result3">
+                <div class="image__container">
+                    <img src="/assets/house2.png" alt="Dream house on the beach" />
+                    <img src="assets/house1.png" alt="Dream house on the beach2" />
+                </div>
+                <div class="result__description">
+                    <div class="ratings"></div><img src="./assets/Star.svg" alt="Star Rating"><img
+                        src="./assets/Star.svg" alt="Star Rating"><img src="./assets/Star.svg" alt="Star Rating">
+                </div>
+                <h4>Estate de la Newcastle</h4>
+                <p>
+                    Newcastle City Centre, Newcastle upon Tyne 0.1km
+                    from centre
+                </p>
+                <div class="map_location">
+                    <div class="map_location--item"><img src="./assets/Location.svg" alt="Show on map"></div>
+                    <div>
+                        <h5 class="map_location--item">Show on map</h5>
+                    </div>
+                </div>
+                <p>
+                    Situated in Newcastle City Centre, Maldron Hotel
+                    features free WiFi and a private court yard.
+                </p>
+                <button type="submit">Make a booking</button>
+            </div>
+            </div>
+        </section>
+        <div class="arrow_container">
+            <div class="arrow__item"></div>
+            <div>
+                <img class="down_arrow" src="./assets/down_arrow.png" alt="button" />
+            </div>
+            <div class="arrow__item"></div>
+        </div>
+        <section class="boxes">
+            <div class="boxes--green_box">
+                <p class="boxes">👍🏻</p>
+                <p class="boxes">
+                    Lock in a great price for your upcoming stay. Get
+                    instant confirmation with FREE cancellation on most
+                    rooms!
+                </p>
+                <p class="boxes">X</p>
+            </div>
+            <div class="boxes--red_box">
+                <p class="boxes">❗</p>
+                <p class="boxes">
+                    From 6 April 2022, your chosen cancellation policy will
+                    apply, regardless of Coronavirus. We recommend booking a
+                    free cancellation option in case your travel plans need
+                    to change.
+                </p>
+                <p class="boxes">X</p>
+            </div>
+        </section>
+        <section class="contact-us">
+            <div class="contact-us__text--container">
+                <h3>Need more information to get started?</h3>
+                <button type="submit">CONTACT US</button>
+            </div>
+            <div class="img--container">
+                <img src="/assets/background.png" alt="publicity background" />
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Travelulu</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+            ullamcorper magna, ac laoreet ex. Integer a consequat lectus.
+            Nullam tortor sem
+        </p>
+        <p>Copyright 2021, All Rights Reserved.</p>
+        <div>
+            <h4>Contact</h4>
+            <p class="email">travelulu@website.com</p>
+            <p>
+                22 Street Address,, Suburb Address Main City, PO Box,
+                Country 08 8888 88888
+            </p>
+        </div>
+    </footer>
+</body>
+
 </html>
