@@ -253,7 +253,6 @@ section h2 {
   overflow-x: scroll;
 }
 .search--results img {
-  display: flex;
   padding-block: 1rem;
   padding-inline-end: 1rem;
 }
@@ -354,6 +353,9 @@ footer .continents {
   }
   .contact-us__text--container.contact-us__text--container button {
     width: 20vw;
+  }
+  .img_hide {
+    display: none;
   }
 }
 

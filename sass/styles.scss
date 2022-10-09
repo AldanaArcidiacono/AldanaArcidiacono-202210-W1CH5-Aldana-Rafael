@@ -261,7 +261,6 @@ section {
         overflow-x: scroll;
     }
     img {
-        display: flex;
         padding-block: 1rem;
         padding-inline-end: 1rem;
     }
@@ -373,5 +372,9 @@ footer {
         button {
             width: 20vw;
         }
+    }
+
+    .img_hide {
+        display: none;
     }
 }
