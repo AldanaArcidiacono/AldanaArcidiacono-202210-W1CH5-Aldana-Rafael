@@ -34,6 +34,7 @@ h1 {
   width: 360px;
   height: 615px;
   margin-inline-start: 1rem;
+  margin-block-start: 2rem;
 }
 .search--destinations h3 {
   color: #bca4ff;
@@ -103,13 +104,13 @@ section h2 {
 
 .search {
   font-weight: 400;
+  border-bottom: 1px #bca4ff solid;
 }
 .search .search--button {
   background: #ed2e7e;
   color: white;
   border: none;
   border-radius: 30px;
-  height: 10vh;
 }
 .search button {
   background: #f7f7fc;
@@ -302,20 +303,57 @@ footer p {
 footer .email {
   color: #5f2eea;
 }
+footer .services {
+  display: none;
+}
+footer .continents {
+  display: none;
+}
 
 @media screen and (min-width: 500px) {
   .search {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
   .search button {
     margin-inline-start: 20px;
+    margin-inline-end: 0;
+    height: 40px;
   }
   .search--long-button {
-    min-width: 475px;
+    max-width: 360px;
+    min-width: 360px;
   }
   .search--short-button {
-    min-width: 260px;
+    max-width: 215px;
+    min-width: 215px;
+  }
+  .search__submit.search__submit.search__submit {
+    max-width: 145px;
+    min-width: 145px;
+  }
+  .destinations--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30% 70%;
+  }
+  .search--results {
+    padding-inline-start: 3rem;
+  }
+  .boxes--green_box {
+    width: 1100px;
+  }
+  .boxes--red_box {
+    width: 1100px;
+  }
+  .contact-us__text--container.contact-us__text--container {
+    margin-block-start: 10rem;
+    margin-inline: 8rem;
+    text-align: center;
+  }
+  .contact-us__text--container.contact-us__text--container button {
+    width: 20vw;
   }
 }
 
